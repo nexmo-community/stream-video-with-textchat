@@ -1,0 +1,29 @@
+{
+  "name": "stream-video-with-textchat",
+  "version": "0.0.1",
+  "description": "Stream a basic audio-video chat plus texting with Vonage Video API in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "opentok": "^2.9.2",
+    "pouchdb-node": "^7.2.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/stream-video-with-textchat"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
